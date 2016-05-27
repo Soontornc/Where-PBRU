@@ -2,5 +2,6 @@
     <string name="app_name">Where PBRU</string>
 
     <string name="searchroom">หมายเลขห้อง</string>
+    <string name="title_activity_maps">Map</string>
 
 </resources>

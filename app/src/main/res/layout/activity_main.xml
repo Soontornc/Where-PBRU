@@ -21,14 +21,16 @@
             android:layout_height="wrap_content"
             android:text="List Build"
             android:id="@+id/button"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:onClick="clickListBuild" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="for Admin"
             android:id="@+id/button2"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:onClick="clickAdmin" />
     </LinearLayout>
 
     <LinearLayout
@@ -70,7 +72,8 @@
                 android:layout_height="wrap_content"
                 android:text="Search"
                 android:id="@+id/button3"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="clickSearch" />
         </LinearLayout>
 
     </LinearLayout>
