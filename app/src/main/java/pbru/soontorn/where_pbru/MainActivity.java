@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         deleteAllSQLite();
 
+
         SynRoom synRoom = new SynRoom();
         synRoom.execute();
 
